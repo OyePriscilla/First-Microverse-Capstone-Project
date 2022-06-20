@@ -17,12 +17,54 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
+  padding: 0 30px;
+  height: 75px;
 }
 
 .hamburger {
   width: 40px;
   cursor: pointer;
+}
+
+.header-content {
+  
+  height: 512px;
+  background-image: url(./resources/background5.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: #ec5242; */
+  padding-left: 30px;
+  padding-top: 84px;
+  padding-right: 30px;
+ 
+}
+
+.header-content h2 {
+ font-size: 24px;
+  font-weight: 100;
+  color: #ec5242;  
+}
+
+.header-content-p {  
+  font-size: 42px;
+  background: -webkit-linear-gradient(hsl(0, 100%, 50%), rgb(22, 22, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 48px;
+}
+
+.header-content-para-two {
+    margin-top: 34px;
+    border: 2px solid #d3d3d3;
+    border-radius: 5px;
+    color: #272a31;
+    font-weight: 100;
+    background-color: #d3d3d3;
+    padding: 20px;
+}
+
+.program-time {
+    margin-top: 44px;
 }
 
 .logo {
