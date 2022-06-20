@@ -14,17 +14,58 @@ body {
 }
 
 .mobile-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .hamburger {
-  width: 50px;
+  width: 40px;
+  cursor: pointer;
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+.fa-times {
+  font-size: 32px;
+  position: relative;
+  left: 410px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  font-size: 40px;
+}
+
+.overlay {
+  display: none;
+  padding: 20px;
+  position: fixed;
+  background-color: #ec5242;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay li {
+  margin-bottom: 32px;
+}
+
+.overlay li:first-child {
+  margin-top: 64px;
+}
+
+.overlay a {
+  color: #fff;
+  font-size: 24px;
+}
+
+.overlay a:hover {
+  font-size: 32px;
 }
