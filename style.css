@@ -27,8 +27,6 @@ body {
 }
 
 .header-content {
-  
-  height: 512px;
   background-image: url(./resources/background5.jfif);
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,16 +34,15 @@ body {
   padding-left: 30px;
   padding-top: 84px;
   padding-right: 30px;
- 
 }
 
 .header-content h2 {
- font-size: 24px;
+  font-size: 24px;
   font-weight: 100;
-  color: #ec5242;  
+  color: #ec5242;
 }
 
-.header-content-p {  
+.header-content-p {
   font-size: 42px;
   background: -webkit-linear-gradient(hsl(0, 100%, 50%), rgb(22, 22, 136));
   -webkit-background-clip: text;
@@ -54,22 +51,96 @@ body {
 }
 
 .header-content-para-two {
-    margin-top: 34px;
-    border: 2px solid #d3d3d3;
-    border-radius: 5px;
-    color: #272a31;
-    font-weight: 100;
-    background-color: #d3d3d3;
-    padding: 20px;
+  margin-top: 34px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  color: #272a31;
+  font-weight: 100;
+  background-color: #d3d3d3;
+  padding: 20px;
 }
 
 .program-time {
-    margin-top: 44px;
+  margin-top: 44px;
 }
 
 .logo {
   width: 80px;
   height: 80px;
+}
+
+.main-program {
+    margin-top: 20px;
+  padding: 0 20px;
+  background-image: url(./resources/mosaic.png);
+  /* height: 600px; */
+}
+
+.main-program h5 {
+  color: #fff;
+  width: 150px;
+  padding-top: 25px;
+  margin: 0 auto;
+  padding-bottom: 12px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.main-program hr {
+  width: 40px;
+  border: 0.8px solid #ec5242;
+  margin: 0 auto;
+}
+
+.main-program img {
+  width: 40px;
+  color: #fff;
+}
+
+.program {
+  display: flex;
+  background-color: #272a31;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 70%;
+  margin-top: 15px;
+  padding: 10px 0;
+}
+
+.program-button {
+    display: block;
+  padding: 20px;
+  width: 60vw;
+  margin: 25px auto;  
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.lecture-title {
+  color: #ec5242;
+}
+
+.lecture-detail {
+  color: #fff;
+}
+
+.fa-chalkboard {
+  color: #fff;
+}
+
+.overlay {
+  display: none;
+  padding: 20px;
+  position: fixed;
+  background-color: #272a31;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 90%;
 }
 
 .fa-times {
@@ -82,17 +153,6 @@ body {
 
 .fa-times:hover {
   font-size: 40px;
-}
-
-.overlay {
-  display: none;
-  padding: 20px;
-  position: fixed;
-  background-color: #ec5242;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
 }
 
 .overlay li {
