@@ -20,6 +20,11 @@ body {
   align-items: center;
   padding: 0 30px;
   height: 75px;
+  position: fixed;
+  width: 100vw;
+  height: 78px;
+  background-color: #fff;
+  z-index: 30;
 }
 
 .hamburger {
@@ -80,13 +85,13 @@ body {
 }
 
 .h-style {
-  color: #fff;
-  width: 150px;
+  display: flex;
+  color: #fff;  
   padding-top: 25px;
-  margin: 0 auto;
+  justify-content: center;
   padding-bottom: 12px;
-  font-weight: 100;
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 28px;  
 }
 
 .h-style-two {
@@ -281,13 +286,38 @@ body {
   font-size: 32px;
 }
 
+.header-social, .desktop-ul{
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .overlay {
     display: none;
   }
 
+  .header-social ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;    
+    background-color: #272a31;
+    padding: 5px 190px;
+  }
+
+  .header-social a {
+    color: #d3d3d3;
+  }
+
+  .header-social li {
+    margin-right: 20px;
+    color: #d3d3d3;
+  } 
+
   .hamburger {
     display: none;
+  }
+
+  .logo {
+    height: 60px;
   }
 
   .mobile-nav {
@@ -302,6 +332,89 @@ body {
  
   .desktop-ul li {
     margin-right: 40px;
-  } 
+  }
+  
+  .desktop-ul li:last-child {
+    border: 2px solid #ec5242;
+    padding: 10px;    
+  }
+
+ .red-link {
+   color: #ec5242;
+ }
+
+ .grey-link {
+   color: #272a31;
+ }
+  
+header a:hover {
+  font-size: 18px;
+}
+
+.header-content {
+  padding: 60px 150px;
+}
+
+.header-content h2 {  
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-content-p {
+  font-size: 70px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.header-content-para-two {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.program-time {
+  text-align: center;
+  font-size: 20px;
+  color: #272a31;
+}
+
+small a {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 18px;
+
+}
+
+.main-program {
+  padding: 40px 80px 100px 80px;  
+}
+
+.program-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.program {
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0; 
+}
+.program-button {
+  border: none;
+  color: #fff;
+  background-color: inherit;
+  padding-bottom: 0;  
+  margin-bottom: 0;
+}
+
+.desktop-hr {
+  width: 235px;
+  margin: 0 auto;
+  
+}
 
 }
