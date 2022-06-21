@@ -1,0 +1,222 @@
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+@import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "lato", sans-serif;
+}
+
+.mobile-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  height: 75px;
+}
+
+.hamburger {
+  width: 40px;
+  cursor: pointer;
+}
+
+.header-content {
+  background-image: url(./resources/bg3.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 30px;
+  padding-top: 84px;
+  padding-right: 30px;
+}
+
+.header-content h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #ec5242;
+  text-align: center;
+}
+
+.header-content-p {
+  font-size: 52px;
+  background: -webkit-linear-gradient(hsl(0, 100%, 50%), rgb(22, 22, 136));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 68px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.header-content-para-two {
+  margin-top: 34px;
+  border: 2px solid #d3d3d3;
+  border-radius: 5px;
+  color: #272a31;
+  font-weight: 800;
+  background-color: #d3d3d3;
+  padding: 20px;
+  line-height: 28px;
+  opacity: 60%;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+.about-para {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
+}
+
+.header-content:last-child {
+  padding-bottom: 20px;
+}
+
+.about-section {
+  padding: 20px 30px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+
+section hr {
+  width: 150px;
+  margin: 0 auto;
+  border: 1px solid #ec5242;
+  margin-bottom: 60px;
+}
+
+section img {
+  width: 100%;
+  border-radius: 55px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+section p {
+  text-align: center;
+}
+
+section p:last-of-type {
+  margin-bottom: 80px;
+}
+
+.side-attractions {
+  margin: 30px 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.about-hr {
+  width: 100%;
+  border: 1px solid #d3d3d3;
+}
+
+.hr-one {
+  width: 40px;
+  border: 0.8px solid #ec5242;
+  margin: 0 auto;
+}
+
+.past-event {
+  margin-top: 0px;
+}
+
+.first-activity {
+  background-image: url(./resources/images3.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.second-activity {
+  background-image: url(./resources/download.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.activity-para {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.partner {
+  background-color: #272a31;
+  text-align: center;
+}
+
+.partner-header {
+  color: #fff;
+  padding: 20px 160px 5px 160px;
+}
+
+.partner img {
+  width: 120px;
+}
+
+.partners-img {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.partner1,
+.partner2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.partner2 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.footer-contact {
+  color: #000;
+  text-align: center;
+}
+
+.footer-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-para {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-small {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
+}
