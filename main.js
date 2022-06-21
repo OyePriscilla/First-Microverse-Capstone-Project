@@ -6,8 +6,13 @@ const overClose2 = overlay.querySelector('.close-over2');
 const overClose3 = overlay.querySelector('.close-over3');
 const overClose4 = overlay.querySelector('.close-over4');
 const dynamicDisplay = document.querySelector('.featured-speakers');
+const logo = document.querySelector('.logo');
 
 closeMenu.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+logo.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
