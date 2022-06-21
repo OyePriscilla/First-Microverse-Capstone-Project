@@ -36,19 +36,28 @@ body {
   padding-right: 30px;
 }
 
+section h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+
 .header-content h2 {
   font-size: 34px;
   font-weight: 600;
   color: #ec5242;
+  text-align: center;
 }
 
 .header-content-p {
-  font-size: 62px;
+  font-size: 52px;
   background: -webkit-linear-gradient(hsl(0, 100%, 50%), rgb(22, 22, 136));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 68px;
   font-weight: 900;
+  text-align: center;
 }
 
 .header-content-para-two {
@@ -63,34 +72,56 @@ body {
   opacity: 60%;
 }
 
-.program-time {
-  margin-top: 44px;
-}
-
 .logo {
   width: 80px;
   height: 80px;
 }
 
-.main-program {
-  margin-top: 20px;
-  padding: 0 10px;
-  background-image: url(./resources/mosaic.png);
-  background-size: cover;
+.about-para {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 800;
 }
 
-.h-style {
-  color: #fff;
+.header-content:last-child {
+  padding-bottom: 20px;
+}
+
+.about-section {
+  padding: 20px 30px;
+}
+
+section hr {
   width: 150px;
-  padding-top: 25px;
   margin: 0 auto;
-  padding-bottom: 12px;
-  font-weight: 100;
-  font-size: 18px;
+  border: 1px solid #ec5242;
+  margin-bottom: 60px;
 }
 
-.h-style-two {
-  color: #000;
+section img {
+  width: 100%;
+  border-radius: 55px;
+  border: none;
+  margin-bottom: 40px;
+}
+
+section p {
+  text-align: center;
+}
+
+section p:last-of-type {
+  margin-bottom: 80px;
+}
+
+.side-attractions {
+  margin: 30px 0;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.about-hr {
+  width: 100%;
+  border: 1px solid #d3d3d3;
 }
 
 .hr-one {
@@ -99,87 +130,38 @@ body {
   margin: 0 auto;
 }
 
-.main-program img {
-  width: 40px;
-  color: #fff;
-  margin-right: 10px;
+.past-event {
+  margin-top: 0;
 }
 
-.program {
+.first-activity {
+  background-image: url(./resources/images3.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  margin-top: 15px;
-  background-color: #272a31;
-  opacity: 70%;
-  padding: 10px;
-}
-
-.program-button {
-  display: block;
-  padding: 20px;
-  width: 60vw;
-  margin: 25px auto;
-  background-color: #ec5242;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
-  border: none;
-  font-size: 18px;
-  cursor: pointer;
-}
-
-.button-div {
   margin-bottom: 20px;
 }
 
-.lecture-title {
-  color: #ec5242;
-  padding-right: 15px;
-}
-
-.lecture-detail {
-  width: 65%;
-  color: #fff;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-}
-
-.fa-chalkboard {
-  color: #fff;
-}
-
-.speakers-flex {
+.second-activity {
+  background-image: url(./resources/download.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.speaker-picture {
-  width: 150px;
-  border-radius: 50%;
-  margin-left: 20px;
-}
-
-.speakers-detail {
-  display: flex;
+  align-items: center;
   flex-direction: column;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  line-height: 20px;
-  font-weight: 500;
+  justify-content: center;
+  color: #fff;
 }
 
-.hr-style {
-  width: 50px;
-  margin-bottom: 5px;
-}
-
-.speakers-description {
-  color: #ec5242;
-  font-style: italic;
-  margin-bottom: 1px;
-  margin-top: 5px;
+.activity-para {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .partner {
@@ -237,46 +219,4 @@ body {
   text-align: center;
   margin-bottom: 40px;
   font-style: italic;
-}
-
-.overlay {
-  display: none;
-  padding: 40px;
-  position: fixed;
-  background-color: #272a31;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 90%;
-}
-
-.fa-times {
-  font-size: 32px;
-  position: absolute;
-  top: 21px;
-  right: 37px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.fa-times:hover {
-  font-size: 40px;
-}
-
-.overlay li {
-  margin-bottom: 32px;
-}
-
-.overlay li:first-child {
-  margin-top: 64px;
-}
-
-.overlay a {
-  color: #fff;
-  font-size: 24px;
-}
-
-.overlay a:hover {
-  font-size: 32px;
 }
