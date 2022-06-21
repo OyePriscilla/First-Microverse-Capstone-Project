@@ -1,9 +1,29 @@
 const closeMenu = document.querySelector('.close');
 const overlay = document.querySelector('.overlay');
 const menu = document.querySelector('.hamburger');
+const overClose1 = overlay.querySelector('.close-over1');
+const overClose2 = overlay.querySelector('.close-over2');
+const overClose3 = overlay.querySelector('.close-over3');
+const overClose4 = overlay.querySelector('.close-over4');
 const dynamicDisplay = document.querySelector('.featured-speakers');
 
 closeMenu.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+overClose1.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+overClose2.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+overClose3.addEventListener('click', () => {
+  overlay.style.display = 'none';
+});
+
+overClose4.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
