@@ -280,3 +280,28 @@ body {
 .overlay a:hover {
   font-size: 32px;
 }
+
+@media screen and (min-width: 768px) {
+  .overlay {
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .mobile-nav {
+    padding: 0 150px;
+  }
+
+  .desktop-ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+ 
+  .desktop-ul li {
+    margin-right: 40px;
+  } 
+
+}
