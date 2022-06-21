@@ -7,10 +7,11 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: "cocogoose", lato, monospace;
+  font-family: "lato", sans-serif;
 }
 
 .mobile-nav {
@@ -27,27 +28,27 @@ body {
 }
 
 .header-content {
-  background-image: url(./resources/background5.jfif);
-  background-repeat: no-repeat;
+  background-image: url(./resources/bg3.jfif);
+  background-repeat:no-repeat;
   background-size: cover;
-  /* color: #ec5242; */
   padding-left: 30px;
   padding-top: 84px;
   padding-right: 30px;
 }
 
 .header-content h2 {
-  font-size: 24px;
-  font-weight: 100;
+  font-size: 34px;
+  font-weight: 600;
   color: #ec5242;
 }
 
 .header-content-p {
-  font-size: 42px;
+  font-size: 62px;
   background: -webkit-linear-gradient(hsl(0, 100%, 50%), rgb(22, 22, 136));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 48px;
+  line-height: 68px;
+  font-weight: 900;
 }
 
 .header-content-para-two {
@@ -55,9 +56,11 @@ body {
   border: 2px solid #d3d3d3;
   border-radius: 5px;
   color: #272a31;
-  font-weight: 100;
+  font-weight: 800;
   background-color: #d3d3d3;
   padding: 20px;
+  line-height: 28px;
+  opacity: 60%;
 }
 
 .program-time {
@@ -71,9 +74,9 @@ body {
 
 .main-program {
   margin-top: 20px;
-  padding: 0 20px;
+  padding: 0 10px;
   background-image: url(./resources/mosaic.png);
-  /* height: 800px; */
+  background-size: cover;
 }
 
 .h-style {
@@ -99,16 +102,17 @@ body {
 .main-program img {
   width: 40px;
   color: #fff;
+  margin-right: 10px;
 }
 
 .program {
   display: flex;
-  background-color: #272a31;
   align-items: center;
   justify-content: space-around;
-  opacity: 70%;
   margin-top: 15px;
-  padding: 10px 0;
+  background-color: #272a31;
+  opacity: 70%;
+  padding: 10px;
 }
 
 .program-button {
@@ -123,12 +127,21 @@ body {
   cursor: pointer;
 }
 
+.button-div {
+  margin-bottom: 20px;
+}
+
 .lecture-title {
   color: #ec5242;
+  padding-right: 15px;
 }
 
 .lecture-detail {
+  width: 65%;
   color: #fff;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
 }
 
 .fa-chalkboard {
@@ -159,17 +172,76 @@ body {
 
 .hr-style {
   width: 50px;
+  margin-bottom: 5px;
 }
 
 .speakers-description {
   color: #ec5242;
   font-style: italic;
   margin-bottom: 1px;
+  margin-top: 5px;
+}
+
+.partner {
+  background-color: #272a31;
+  text-align: center;
+}
+
+.partner-header {
+  color: #fff;
+  padding: 20px 160px 5px 160px;
+}
+
+.partner img {
+  width: 120px;
+}
+
+.partners-img {
+  padding: 30px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.partner1,
+.partner2 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.partner2 {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.footer-contact {
+  color: #000;
+  text-align: center;
+}
+
+.footer-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.footer-para {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer-small {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
 }
 
 .overlay {
   display: none;
-  padding: 20px;
+  padding: 40px;
   position: fixed;
   background-color: #272a31;
   top: 0;
@@ -181,8 +253,9 @@ body {
 
 .fa-times {
   font-size: 32px;
-  position: relative;
-  left: 410px;
+  position: absolute;
+  top: 21px;
+  right: 37px;
   color: #fff;
   cursor: pointer;
 }
