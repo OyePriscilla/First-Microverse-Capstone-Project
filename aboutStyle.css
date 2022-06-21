@@ -36,6 +36,13 @@ body {
   padding-right: 30px;
 }
 
+section h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 5px;
+  margin-top: 60px;
+}
+
 .header-content h2 {
   font-size: 34px;
   font-weight: 600;
@@ -84,13 +91,6 @@ body {
   padding: 20px 30px;
 }
 
-section h2 {
-  text-align: center;
-  font-size: 34px;
-  margin-bottom: 5px;
-  margin-top: 60px;
-}
-
 section hr {
   width: 150px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ section p:last-of-type {
 }
 
 .past-event {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .first-activity {
@@ -160,8 +160,8 @@ section p:last-of-type {
 }
 
 .activity-para {
-    font-size: 24px;
-    font-weight: 700;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .partner {
