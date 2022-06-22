@@ -12,6 +12,7 @@
 
 body {
   font-family: "lato", sans-serif;
+  overflow-x: hidden;
 }
 
 .mobile-nav {
