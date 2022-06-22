@@ -38,6 +38,15 @@ menu.addEventListener('click', () => {
 
 const speakers = [
   {
+    imgSrc: './resources/Olufe.jpg',
+    name: 'Samuel Oyebade',
+    description: 'Director of OYE e-learning School',
+    about: `Samuel is a Seasoned Teacher of The WORD that is ready to address any issue
+     as far as he is concerned. He is open to learning as God direct per time. `,
+
+  },
+
+  {
     imgSrc: './resources/picture.jpg',
     name: 'Priscilla Oyebade',
     description: 'Co-Director of OYE e-learning School',
@@ -49,24 +58,14 @@ const speakers = [
   {
     imgSrc: './resources/Olufe.jpg',
     name: 'Samuel Oyebade',
-    description: 'Director of OYE e-learning School',
-    about: `Samuel is a Seasoned Teacher of The WORD that is ready address any issue
-     as far as he is concerned. He is open to learning as God direct per time. `,
-
-  },
-
-  {
-    imgSrc: './resources/picture-one.jpg',
-    name: 'Oluchi Kelechi',
     description: 'Manager, Aviation School',
-    about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
-     as far as Software Engineer is concerned. She is open to new opportunities in the field `,
-
+    about: `Samuel is a Seasoned Teacher of The WORD that is ready to address any issue
+    as far as he is concerned. He is open to learning as God direct per time. `,
   },
 
   {
-    imgSrc: './resources/picture-two.jpg',
-    name: 'Temiloluwa Jesugbotemi',
+    imgSrc: './resources/picture.jpg',
+    name: 'Priscilla Oyebade',
     description: 'Director, School of law',
     about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
      as far as Software Engineer is concerned. She is open to new opportunities in the field `,
@@ -74,17 +73,17 @@ const speakers = [
   },
 
   {
-    imgSrc: './resources/picture-three.jpg',
-    name: 'Ijobajesu Oyebade',
+    imgSrc: './resources/Olufe.jpg',
+    name: 'IjobaJesu Oyebade',
     description: 'Proffessor of Medicine',
-    about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
+    about: `IjobaJesu is a Seasoned Software Engineer that is ready address any issue
      as far as Software Engineer is concerned. She is open to new opportunities in the field `,
 
   },
 
   {
-    imgSrc: './resources/picture-four.jpg',
-    name: 'Alex Ebonyi',
+    imgSrc: './resources/picture.jpg',
+    name: 'Priscilla Oyebade',
     description: 'Associate Professor, Computer Science Department, Lagos, Nigeria.',
     about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
      as far as Software Engineer is concerned. She is open to new opportunities in the field `,
