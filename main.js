@@ -96,8 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let featuredSpeakersContent = '';
   for (let i = 0; i < speakers.length; i += 1) {
     featuredSpeakersContent += `   
-        
-        <div class = speakers-flex>
+       
+        <div class = "speakers-flex">
         <div>        
         <img class = "speaker-picture" src = ${speakers[i].imgSrc} alt = "speakers picture"        
         </div>
@@ -107,8 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class = "speakers-description">${speakers[i].description}</p><hr class = "hr-style">
             <p>${speakers[i].about}</p>
         </div>
-        </div>
-        
+        </div>    
         
       `;
   }
