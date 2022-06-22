@@ -3,6 +3,8 @@ This website is created purposely for online learning. The main programs are lis
 
 The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project. In particular, I would like to point out that I built this website completely from scratch.
 
+![]https://github.com/OyePriscilla/First-Microverse-Capstone-Project/blob/desktop-view-implementation/resources/conference_page.png
+
 ## Built With
 * VsCode
 * HTML
