@@ -78,8 +78,8 @@ body {
 .main-program {
   margin-top: 20px;
   padding: 0 10px;
-  background-image: url(./resources/mosaic.png);
-  background-size: cover;
+  background-image: url(./resources/repeat-bg.png);
+  background-repeat: repeat;
 }
 
 .h-style {
@@ -113,8 +113,7 @@ body {
   align-items: center;
   justify-content: space-around;
   margin-top: 15px;
-  background-color: #272a31;
-  opacity: 70%;
+  background-color: #393c43b3;
   padding: 10px;
 }
 
@@ -138,6 +137,7 @@ body {
 .lecture-title {
   color: #ec5242;
   padding-right: 15px;
+  font-weight: 900;
 }
 
 .lecture-detail {
