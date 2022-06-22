@@ -185,18 +185,6 @@ section p:last-of-type {
   flex-direction: column;
 }
 
-.partner1,
-.partner2 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 10px;
-}
-
-.partner2 {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
 .footer-contact {
   color: #000;
   text-align: center;
@@ -219,4 +207,63 @@ section p:last-of-type {
   text-align: center;
   margin-bottom: 40px;
   font-style: italic;
+}
+
+@media screen and (min-width: 768px) {
+  .header-content {
+    padding: 50px 150px;
+  }
+
+  .about-section img {
+    display: flex;
+    max-width: 80%;
+    margin: 30px auto;
+  }
+
+  .about-first-para {
+    padding: 0 100px;
+  }
+
+  .activity-flex {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .activities {
+    width: 50%;
+    margin-right: 20px;
+  }
+
+  .activities h2 {
+    font-size: 3rem;
+  }
+
+  .partner {
+    background-color: #272a31;
+    text-align: center;
+    padding: 10px 30px 30px 30px;
+  }
+
+  .partner-header {
+    color: #fff;
+    padding: 20px 160px 5px 160px;
+  }
+
+  .partner img {
+    width: 120px;
+    margin-right: 50px;
+  }
+
+  .partners-img {
+    padding: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .footer-detail {
+    align-items: center;
+    justify-content: center;
+  }
 }
