@@ -173,6 +173,7 @@ body {
   margin-left: 30px;
   line-height: 20px;
   font-weight: 500;
+  width: 45%;
 }
 
 .hr-style {
@@ -190,6 +191,7 @@ body {
 .partner {
   background-color: #272a31;
   text-align: center;
+  padding: 10px 30px 30px 30px;
 }
 
 .partner-header {
@@ -199,25 +201,15 @@ body {
 
 .partner img {
   width: 120px;
+  margin-right: 50px;
 }
 
 .partners-img {
   padding: 30px 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-direction: column;
-}
-
-.partner1,
-.partner2 {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 10px;
-}
-
-.partner2 {
-  padding-left: 60px;
-  padding-right: 60px;
+  flex-wrap: wrap;  
 }
 
 .footer-contact {
@@ -359,6 +351,7 @@ header a:hover {
   font-size: 48px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 50px;
 }
 
 .header-content-p {
@@ -411,10 +404,33 @@ small a {
   margin-bottom: 0;
 }
 
+.featured-speakers {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 0.5fr 0.5fr;
+}
+
+.speakers-detail {
+  width: 50%;
+}
+
 .desktop-hr {
   width: 235px;
-  margin: 0 auto;
-  
+  margin: 0 auto;  
+}
+
+.partners-join {
+  display: flex;
+  justify-content: space-around
+}
+
+.hr-one {
+ margin-bottom: 20px;
+}
+
+.footer-detail {
+  align-items: center;
+  justify-content: center;
 }
 
 }
