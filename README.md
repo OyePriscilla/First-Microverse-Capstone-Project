@@ -1,4 +1,4 @@
-# E-leraning Educational Website
+# E-learning Educational Website
 This website is created purposely for online learning. The main programs are listed and the available lecturers as well.
 
 The website content is fictional. It was created using HTML, CSS and JavaScript to meet the requirements defined within the scope of the Microverse Capstone project. In particular, I would like to point out that I built this website completely from scratch.
