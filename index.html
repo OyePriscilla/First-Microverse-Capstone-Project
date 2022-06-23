@@ -9,21 +9,40 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-      
+
     <title>E-learning Online Educational Courses</title>
   </head>
   <body>
     <header>
+      <div class="header-social">
+        <ul>
+          <li><i class="fab fa-facebook-f"></i></li>
+          <li><i class="fab fa-twitter"></i></li>
+          <li><a href="#">English</a></li>
+          <li><a href="#">My page</a></li>
+          <li><a href="#">Log out</a></li>
+        </ul>
+      </div>
       <nav class="mobile-nav">
         <img class="hamburger" src="./resources/images.png" alt="menu-icon" />
         <a href="#"
           ><img class="logo" src="./resources/logo22.jfif" alt="logo-image"
         /></a>
+        <ul class="desktop-ul">
+          <li><a class="red-link" href="./about.html">About</a></li>
+          <li><a class="grey-link" href="#main-program">Program</a></li>
+          <li><a class="grey-link" href="#join">Join</a></li>
+          <li>
+            <a class="grey-link" href="#featured-speakers">Lecturers</a>
+          </li>
+          <li><a class="grey-link" href="#news">News</a></li>
+          <li><a class="red-link" href="#news">OYE Campaign</a></li>
+        </ul>
       </nav>
       <section class="header-content">
-        <h2>"Hey! Great Minds"</h2>
+        <h1>"Hey! Great Minds"</h1>
         <p class="header-content-p">
-          FREE INTELLISENSE ONLINE LEARNING PLATFORM
+          FREE INTELLIGENT ONLINE LEARNING PLATFORM
         </p>
         <p class="header-content-para-two">
           The importance of E-Learning education is that it is quick and does
@@ -33,7 +52,7 @@
           expertise? Stay put to this website. It's all encompassing!!!
         </p>
         <h4 class="program-time">EVERY WEEK DAYS (MONDAY ~ FRIDAY)</h4>
-        <small class="click-me"
+        <small 
           ><a href="#">Click here to access the e-courses</a></small
         >
       </section>
@@ -41,81 +60,81 @@
     <section class="main-program" id="main-program">
       <h5 class="h-style">Main Program</h5>
       <hr class="hr-one" />
-      <div class="program">
-        <img src="./resources/lecture.png" alt="lecture-icon" />
-        <p class="lecture-title">Lecture</p>
-        <p class="lecture-detail">
-          Access our online lecture notes at free
-          cost any moment of the day 
-          anywhere you may be
-        </p>
-      </div>
-      <div class="program">
-        <img src="./resources/courses.png" alt="course-icon" />
-        <p class="lecture-title">Courses</p>
-        <p class="lecture-detail">
-          Access our online lecture notes at free
-          cost any moment of the day 
-          anywhere you may be
-        </p>
-      </div>
-      <div class="program">
-        <img src="./resources/forum.png" alt="forum-icon" />
-        <p class="lecture-title">Forum</p>
-        <p class="lecture-detail">
-          Access our online lecture notes at free
-          cost any moment of the day 
-          anywhere you may be
-        </p>
-      </div>
-      <div class="program">
-        <img src="./resources/teaching.png" alt="mentorship-icon" />
-        <p class="lecture-title">Mentor</p>
-        <p class="lecture-detail">
-          Access our online lecture notes at free
-          cost any moment of the day 
-          anywhere you may be
-        </p>
-      </div>
-      <div class="program">
-        <img src="./resources/networg.png" alt="network-icon" />
-        <p class="lecture-title">Network</p>
-        <p class="lecture-detail">
-          Access our online lecture notes at free
-          cost any moment of the day 
-          anywhere you may be
-        </p>
-      </div>
-      <div class="button-div" id="join">
-        <button type="button" class="program-button">Join OYE E-learning Platform</button>
-      </div>
-    </section>
-    <section class="featured-speakers" id="featured-speakers">
-     
-    </section>
-    <footer>
-      <div class="partner">
-        <h2 class="partner-header">Partner</h2><hr class="hr-one">
-        <div class="partners-img">
-          <div class="partner1">
-          <img src="./resources/partner1.png" alt="partner1">
-          <img src="./resources/partner2.png" alt="partner2">
-          <img src="./resources/partner3.png" alt="partner3">
-          </div>
-          <div class="partner2">
-            <img src="./resources/partner4.png" alt="partner4">
-          <img src="./resources/partner5.png" alt="partner5">
-          </div>
+      <div class="program-wrapper">
+        <div class="program">
+          <img src="./resources/lecture.png" alt="lecture-icon" />
+          <p class="lecture-title">Lecture</p>
+          <p class="lecture-detail">
+            Access our online lecture notes at free cost any moment of the day
+            anywhere you may be
+          </p>
+        </div>
+        <div class="program">
+          <img src="./resources/courses.png" alt="course-icon" />
+          <p class="lecture-title">Courses</p>
+          <p class="lecture-detail">
+            Access our online lecture notes at free cost any moment of the day
+            anywhere you may be
+          </p>
+        </div>
+        <div class="program">
+          <img src="./resources/Forum-one.png" alt="forum-icon" />
+          <p class="lecture-title">Forum</p>
+          <p class="lecture-detail">
+            Access our online lecture notes at free cost any moment of the day
+            anywhere you may be
+          </p>
+        </div>
+        <div class="program">
+          <img src="./resources/teaching.png" alt="mentorship-icon" />
+          <p class="lecture-title">Mentor</p>
+          <p class="lecture-detail">
+            Access our online lecture notes at free cost any moment of the day
+            anywhere you may be
+          </p>
+        </div>
+        <div class="program">
+          <img src="./resources/networg.png" alt="network-icon" />
+          <p class="lecture-title">Network</p>
+          <p class="lecture-detail">
+            Access our online lecture notes at free cost any moment of the day
+            anywhere you may be
+          </p>
         </div>
       </div>
-      <div class="logo-name" id="footer">
-        <h2 class="partner-header footer-contact">Contact</h2><hr class="hr-one">
+      <div class="button-div" id="join">
+        <button type="button" class="program-button">
+          Join OYE E-learning Platform
+        </button><hr class="desktop-hr">
+      </div>
+    </section>
+    <section id="featured-speakers">
+      <h5 class="h-style h-black">Seasoned Lecturers</h5>
+      <hr class="hr-one" />
+      <div class="featured-speakers" >
+      </div>
+    </section>
+    <section class="partner">
+      <h2 class="partner-header">Partner</h2>
+      <hr class="hr-one" />
+      <div class="partner-img">
+          <img src="./resources/partner1.png" alt="partner1" />
+          <img src="./resources/partner2.png" alt="partner2" />
+          <img src="./resources/partner3.png" alt="partner3" />        
+          <img src="./resources/partner4.png" alt="partner4" />
+          <img src="./resources/partner5.png" alt="partner5" />        
+       </div>
+      </section>  
+    <footer>        
+    <div class="logo-name" id="footer">
+        <h2 class="partner-header footer-contact">Contact</h2>
+        <hr class="hr-one" />
       </div>
       <div class="footer-detail">
-        <img src="./resources/logo22.jfif" alt="">
+        <img src="./resources/logo22.jfif" alt="logo-icon" />
         <div>
           <p class="footer-para">Phone: <span>+234 803 6605 211</span></p>
-        <p class="footer-para">Adress: Ago-Okota, Lagos, Nigeria.</p>
+          <p class="footer-para">Adress: Ago-Okota, Lagos, Nigeria.</p>
         </div>
       </div>
       <small class="footer-small">&copy; 2022 All Right Reserved</small>
@@ -127,7 +146,9 @@
           <li><a href="./about.html">About</a></li>
           <li class="close-over1"><a href="#main-program">Main Program</a></li>
           <li class="close-over2"><a href="#join">Join</a></li>
-          <li class="close-over3"><a href="#featured-speakers">Future Speakers</a></li>
+          <li class="close-over3">
+            <a href="#featured-speakers">Lecturers</a>
+          </li>
           <li class="close-over4"><a href="#news">News</a></li>
         </ul>
       </nav>
