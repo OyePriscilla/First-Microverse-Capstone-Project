@@ -26,7 +26,7 @@ Clone this repository on to your local PC
 [Click Here to view presentation video](https://www.loom.com/share/89bddd0856b940de9c17f8b65277af35)
 
 ## Live Demo
-Access the online version of this project through this link [link](https://oyepriscilla.github.io/First-Microverse-Capstone-Project/)
+Access the online version of this project through this [live Demo Link](https://oyepriscilla.github.io/First-Microverse-Capstone-Project/)
 
 ## Author
 👤 **Author**
