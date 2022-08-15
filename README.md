@@ -1,7 +1,7 @@
 # Microverse First Capstone Project: Online Learning Platform
 I built this website from scratch and it was designed in accordance to First Microverse Capstone Project Requirements.
 
-![Design Template](./resources/conference_page.png)
+![Design Template](./resources/capstone.png)
 
 ## Built With
 * HTML
