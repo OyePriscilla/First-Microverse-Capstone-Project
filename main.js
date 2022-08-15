@@ -1,10 +1,8 @@
 const closeMenu = document.querySelector('.close');
 const overlay = document.querySelector('.overlay');
 const menu = document.querySelector('.hamburger');
-const overClose1 = overlay.querySelector('.close-over1');
-const overClose2 = overlay.querySelector('.close-over2');
-const overClose3 = overlay.querySelector('.close-over3');
-const overClose4 = overlay.querySelector('.close-over4');
+const overClose = overlay.querySelectorAll('.close-over');
+
 const dynamicDisplay = document.querySelector('.featured-speakers');
 const logo = document.querySelector('.logo');
 
@@ -16,20 +14,10 @@ logo.addEventListener('click', () => {
   overlay.style.display = 'none';
 });
 
-overClose1.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
-
-overClose2.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
-
-overClose3.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
-
-overClose4.addEventListener('click', () => {
-  overlay.style.display = 'none';
+overClose.forEach(overlayLink => {
+  overlayLink.addEventListener('click', () => {
+    overlay.style.display = 'none';
+  });
 });
 
 menu.addEventListener('click', () => {
@@ -43,7 +31,6 @@ const speakers = [
     description: 'Director of OYE e-learning School',
     about: `Samuel is a Seasoned Teacher of The WORD that is ready to address any issue
      as far as he is concerned. He is open to learning as God direct per time. `,
-
   },
 
   {
@@ -52,7 +39,6 @@ const speakers = [
     description: 'Co-Director of OYE e-learning School',
     about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
      as far as Software Engineer is concerned. She is open to new opportunities in the field `,
-
   },
 
   {
@@ -87,18 +73,17 @@ const speakers = [
     description: 'Associate Professor, Computer Science Department, Lagos, Nigeria.',
     about: `Priscilla is a Seasoned Software Engineer that is ready address any issue
      as far as Software Engineer is concerned. She is open to new opportunities in the field `,
-
   },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
   let featuredSpeakersContent = '';
   for (let i = 0; i < speakers.length; i += 1) {
-    featuredSpeakersContent += `   
-       
+    featuredSpeakersContent += `
+
         <div class = "speakers-flex">
-        <div>        
-        <img class = "speaker-picture" src = ${speakers[i].imgSrc} alt = "speakers picture"        
+        <div>
+        <img class = "speaker-picture" src = ${speakers[i].imgSrc} alt = "speakers picture"
         </div>
         </div>
         <div class = "speakers-detail">
@@ -106,8 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p class = "speakers-description">${speakers[i].description}</p><hr class = "hr-style">
             <p>${speakers[i].about}</p>
         </div>
-        </div>    
-        
+        </div>
       `;
   }
   dynamicDisplay.innerHTML = featuredSpeakersContent;
