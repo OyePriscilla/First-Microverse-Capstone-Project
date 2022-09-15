@@ -6,18 +6,16 @@ const overClose = overlay.querySelectorAll('.close-over');
 const dynamicDisplay = document.querySelector('.featured-speakers');
 const logo = document.querySelector('.logo');
 
-closeMenu.addEventListener('click', () => {
+const hideOverlay = () => {
   overlay.style.display = 'none';
-});
+};
 
-logo.addEventListener('click', () => {
-  overlay.style.display = 'none';
-});
+closeMenu.addEventListener('click', hideOverlay);
+
+logo.addEventListener('click', hideOverlay);
 
 overClose.forEach(overlayLink => {
-  overlayLink.addEventListener('click', () => {
-    overlay.style.display = 'none';
-  });
+  overlayLink.addEventListener('click', hideOverlay);
 });
 
 menu.addEventListener('click', () => {
