@@ -2,7 +2,6 @@ const closeMenu = document.querySelector('.close');
 const overlay = document.querySelector('.overlay');
 const menu = document.querySelector('.hamburger');
 const overClose = overlay.querySelectorAll('.close-over');
-
 const dynamicDisplay = document.querySelector('.featured-speakers');
 const logo = document.querySelector('.logo');
 
