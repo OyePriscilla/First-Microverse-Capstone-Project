@@ -13,7 +13,7 @@ closeMenu.addEventListener('click', hideOverlay);
 
 logo.addEventListener('click', hideOverlay);
 
-overClose.forEach(overlayLink => {
+overClose.forEach((overlayLink) => {
   overlayLink.addEventListener('click', hideOverlay);
 });
 
